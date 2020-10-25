@@ -1,0 +1,15 @@
+.main_campaign {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.campaign {
+  height: 300px;
+  width: 450px;
+  border-radius: 20px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #faf1f1;
+}
