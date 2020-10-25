@@ -1,56 +1,200 @@
-<mxfile host="app.diagrams.net" modified="2020-10-24T15:45:33.415Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="bmMjQmqwgt_GyMP8SR6U" version="13.7.5" type="github">
-  <diagram id="4c_XQdo7aPkYdDUFgZLZ" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2020-10-25T03:01:56.169Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="tHey1KsLpNXroGgQUFas" version="13.8.1" type="github" pages="4">
+  <diagram id="4c_XQdo7aPkYdDUFgZLZ" name="main_page">
     <mxGraphModel dx="1422" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="wNOxpLRjmD4jv4Fung3d-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wNOxpLRjmD4jv4Fung3d-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="31.11" y="40" width="740" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="wNOxpLRjmD4jv4Fung3d-30" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wNOxpLRjmD4jv4Fung3d-30" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="591" y="45" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wNOxpLRjmD4jv4Fung3d-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wNOxpLRjmD4jv4Fung3d-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="681" y="45" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wNOxpLRjmD4jv4Fung3d-4" value="Admin Login" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="wNOxpLRjmD4jv4Fung3d-4" value="Admin Login" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="682" y="50" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="wNOxpLRjmD4jv4Fung3d-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wNOxpLRjmD4jv4Fung3d-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="100" width="222.22" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="wNOxpLRjmD4jv4Fung3d-6" value="&lt;font style=&quot;font-size: 12px&quot;&gt;XXXXX&lt;br&gt;Voting&lt;br&gt;Campaign&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="wNOxpLRjmD4jv4Fung3d-6" value="Voting Campaign 1: &lt;br&gt;Who is the best NBA player in the history" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="48.61" y="110" width="205" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="wNOxpLRjmD4jv4Fung3d-16" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wNOxpLRjmD4jv4Fung3d-16" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="286" y="100" width="222.22" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="wNOxpLRjmD4jv4Fung3d-17" value="&lt;font style=&quot;font-size: 12px&quot;&gt;XXXXX&lt;br&gt;Voting&lt;br&gt;Campaign&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="wNOxpLRjmD4jv4Fung3d-17" value="Voting Campaign 2: &lt;br&gt;Which HK CEO candidate you are preferred" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="294.61" y="110" width="205" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="wNOxpLRjmD4jv4Fung3d-18" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wNOxpLRjmD4jv4Fung3d-18" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="536" y="100" width="222.22" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="wNOxpLRjmD4jv4Fung3d-19" value="&lt;font style=&quot;font-size: 12px&quot;&gt;XXXXX&lt;br&gt;Voting&lt;br&gt;Campaign&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="wNOxpLRjmD4jv4Fung3d-19" value="Voting Campaign 3:&amp;nbsp;&lt;br&gt;Who will win the American Election of 2020?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="544.61" y="110" width="205" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="wNOxpLRjmD4jv4Fung3d-20" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wNOxpLRjmD4jv4Fung3d-20" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="280" width="222.22" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="wNOxpLRjmD4jv4Fung3d-21" value="&lt;font style=&quot;font-size: 12px&quot;&gt;XXXXX&lt;br&gt;Voting&lt;br&gt;Campaign&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="wNOxpLRjmD4jv4Fung3d-21" value="Voting Campaign 4:&amp;nbsp;&lt;br&gt;What drink do you like the most?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="48.61" y="290" width="205" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="wNOxpLRjmD4jv4Fung3d-22" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Simple Voting&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="wNOxpLRjmD4jv4Fung3d-22" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Simple Voting&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="50" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="wNOxpLRjmD4jv4Fung3d-24" value="&lt;h1&gt;Flow&lt;/h1&gt;&lt;p&gt;1. User clicks voting campaign to see current voting results of candidates&amp;nbsp;&lt;/p&gt;&lt;p&gt;2. User clicks one of the candidates for voting&lt;/p&gt;&lt;p&gt;3. Server asks the user for registration by HKID&lt;/p&gt;&lt;p&gt;4. if the HKID input is used for voting,&amp;nbsp;then further asks the user for PIN to login for checking his/her vote in this campaign&amp;nbsp;&lt;font color=&quot;#4c0099&quot;&gt; HKID checking , PIN generator, Token&lt;/font&gt;&lt;/p&gt;&lt;p&gt;5. else voting succeeded and provide a PIN to the user specific for this campaign&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="wNOxpLRjmD4jv4Fung3d-24" value="&lt;h1&gt;Flow&lt;/h1&gt;&lt;p&gt;1. User clicks voting campaign to see current voting results of candidates&amp;nbsp;&lt;/p&gt;&lt;p&gt;2. User clicks one of the candidates for voting&lt;/p&gt;&lt;p&gt;3. Server asks the user for registration by HKID&lt;/p&gt;&lt;p&gt;4. if the HKID input is used for voting,&amp;nbsp;then further asks the user for PIN to login for checking his/her vote in this campaign&amp;nbsp;&lt;font color=&quot;#4c0099&quot;&gt; HKID checking , PIN generator, Token&lt;/font&gt;&lt;/p&gt;&lt;p&gt;5. else voting succeeded and provide a PIN to the user specific for this campaign&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="56.11" y="500" width="323.89" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="wNOxpLRjmD4jv4Fung3d-25" value="&lt;h1&gt;Rules&lt;/h1&gt;&lt;p&gt;1. displaying the result after the end time&lt;/p&gt;&lt;p&gt;2. campaign will not accept new vote after the end time&lt;/p&gt;&lt;p&gt;3. avoid duplicate voting &lt;font color=&quot;#4c0099&quot;&gt;reddis &amp;amp; isProcessing&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;4. deal with high traffic&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;font color=&quot;#4c0099&quot;&gt;reddis&lt;/font&gt;&lt;/p&gt;&lt;p&gt;5. real-time display the vote count &lt;font color=&quot;#4c0099&quot;&gt;socket.io&lt;/font&gt;&lt;/p&gt;&lt;p&gt;6. a list to display all voting campaign &lt;font color=&quot;#4c0099&quot;&gt;.map&lt;/font&gt;&lt;/p&gt;&lt;p&gt;display current available campaigns that order by total no. of notes, then display most recent ended campaign afterward&lt;/p&gt;&lt;p&gt;7. no sensitive wording&amp;nbsp;&lt;/p&gt;&lt;p&gt;Personal:&amp;nbsp;&lt;/p&gt;readable and maintainable code styles&lt;br&gt;&lt;br&gt;clear setup document (MUST)&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="wNOxpLRjmD4jv4Fung3d-25" value="&lt;h1&gt;Rules&lt;/h1&gt;&lt;p&gt;1. displaying the result after the end time&lt;/p&gt;&lt;p&gt;2. campaign will not accept new vote after the end time&lt;/p&gt;&lt;p&gt;3. avoid duplicate voting &lt;font color=&quot;#4c0099&quot;&gt;reddis &amp;amp; isProcessing&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;4. deal with high traffic&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;font color=&quot;#4c0099&quot;&gt;reddis&lt;/font&gt;&lt;/p&gt;&lt;p&gt;5. real-time display the vote count &lt;font color=&quot;#4c0099&quot;&gt;socket.io&lt;/font&gt;&lt;/p&gt;&lt;p&gt;6. a list to display all voting campaign &lt;font color=&quot;#4c0099&quot;&gt;.map&lt;/font&gt;&lt;/p&gt;&lt;p&gt;display current available campaigns that order by total no. of notes, then display most recent ended campaign afterward&lt;/p&gt;&lt;p&gt;7. no sensitive wording&amp;nbsp;&lt;/p&gt;&lt;p&gt;Personal:&amp;nbsp;&lt;/p&gt;readable and maintainable code styles&lt;br&gt;&lt;br&gt;clear setup document (MUST)&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="460" y="500" width="320" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="wNOxpLRjmD4jv4Fung3d-28" value="Campaign List" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="wNOxpLRjmD4jv4Fung3d-28" value="All Campaign List" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="591" y="50" width="80" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="hTgAV3pDBWGTPSK4fREP" name="campaign_page">
+    <mxGraphModel dx="1422" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="VGyk6_iMbUYA0gshncYz-0" />
+        <mxCell id="VGyk6_iMbUYA0gshncYz-1" parent="VGyk6_iMbUYA0gshncYz-0" />
+        <mxCell id="d_kUQs4taP7fTAZ1VOE7-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="VGyk6_iMbUYA0gshncYz-1">
+          <mxGeometry x="180" y="70" width="450" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="d_kUQs4taP7fTAZ1VOE7-1" value="&lt;b&gt;Trump&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VGyk6_iMbUYA0gshncYz-1">
+          <mxGeometry x="225" y="120" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d_kUQs4taP7fTAZ1VOE7-2" value="&lt;b&gt;Biden&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VGyk6_iMbUYA0gshncYz-1">
+          <mxGeometry x="225" y="190" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d_kUQs4taP7fTAZ1VOE7-3" value="&lt;i&gt;Hillary Clinton&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VGyk6_iMbUYA0gshncYz-1">
+          <mxGeometry x="225" y="260" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d_kUQs4taP7fTAZ1VOE7-6" value="candidate 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="VGyk6_iMbUYA0gshncYz-1">
+          <mxGeometry x="235" y="120" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d_kUQs4taP7fTAZ1VOE7-7" value="candidate 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="VGyk6_iMbUYA0gshncYz-1">
+          <mxGeometry x="235" y="190" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d_kUQs4taP7fTAZ1VOE7-8" value="candidate 3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="VGyk6_iMbUYA0gshncYz-1">
+          <mxGeometry x="235" y="260" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d6xTb5aJRswuATtpV3An-0" value="Voting Campaign 3:&amp;nbsp;&lt;br&gt;Who will win the American Election of 2020?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="VGyk6_iMbUYA0gshncYz-1">
+          <mxGeometry x="180" y="80" width="460" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="WsOxMrU1W_ejiWdEd2sy" name="All_campaign_page">
+    <mxGraphModel dx="1422" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Z5IpPVE7nRzZ21Awn_df-0" />
+        <mxCell id="Z5IpPVE7nRzZ21Awn_df-1" parent="Z5IpPVE7nRzZ21Awn_df-0" />
+        <mxCell id="YfRrA4-8bz3oHFVONI9h-0" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Z5IpPVE7nRzZ21Awn_df-1">
+          <mxGeometry x="31.11" y="40" width="740" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YfRrA4-8bz3oHFVONI9h-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Z5IpPVE7nRzZ21Awn_df-1">
+          <mxGeometry x="591" y="45" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YfRrA4-8bz3oHFVONI9h-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Z5IpPVE7nRzZ21Awn_df-1">
+          <mxGeometry x="681" y="45" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YfRrA4-8bz3oHFVONI9h-3" value="Admin Login" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Z5IpPVE7nRzZ21Awn_df-1">
+          <mxGeometry x="682" y="50" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YfRrA4-8bz3oHFVONI9h-4" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Simple Voting&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Z5IpPVE7nRzZ21Awn_df-1">
+          <mxGeometry x="40" y="50" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YfRrA4-8bz3oHFVONI9h-5" value="All Campaign List" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Z5IpPVE7nRzZ21Awn_df-1">
+          <mxGeometry x="591" y="50" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YfRrA4-8bz3oHFVONI9h-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Z5IpPVE7nRzZ21Awn_df-1">
+          <mxGeometry x="51.11" y="100" width="700" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YfRrA4-8bz3oHFVONI9h-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Z5IpPVE7nRzZ21Awn_df-1">
+          <mxGeometry x="51.11" y="150" width="700" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YfRrA4-8bz3oHFVONI9h-8" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Z5IpPVE7nRzZ21Awn_df-1">
+          <mxGeometry x="51.11" y="200" width="700" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YfRrA4-8bz3oHFVONI9h-9" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Z5IpPVE7nRzZ21Awn_df-1">
+          <mxGeometry x="51.11" y="250" width="700" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YfRrA4-8bz3oHFVONI9h-10" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Z5IpPVE7nRzZ21Awn_df-1">
+          <mxGeometry x="51.11" y="300" width="700" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YfRrA4-8bz3oHFVONI9h-11" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Z5IpPVE7nRzZ21Awn_df-1">
+          <mxGeometry x="51.11" y="350" width="700" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YfRrA4-8bz3oHFVONI9h-12" value="Voting Campaign 4:&amp;nbsp;&lt;br&gt;What drink do you like the most?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Z5IpPVE7nRzZ21Awn_df-1">
+          <mxGeometry x="110" y="110" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YfRrA4-8bz3oHFVONI9h-13" value="No. of total votes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Z5IpPVE7nRzZ21Awn_df-1">
+          <mxGeometry x="630" y="100" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YfRrA4-8bz3oHFVONI9h-14" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;2000020&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Z5IpPVE7nRzZ21Awn_df-1">
+          <mxGeometry x="671" y="120" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YfRrA4-8bz3oHFVONI9h-15" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;No.1&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Z5IpPVE7nRzZ21Awn_df-1">
+          <mxGeometry x="60" y="110" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mBKZLEmB2fPAu96eMrEf-0" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Z5IpPVE7nRzZ21Awn_df-1">
+          <mxGeometry x="51.11" y="400" width="700" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mBKZLEmB2fPAu96eMrEf-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Z5IpPVE7nRzZ21Awn_df-1">
+          <mxGeometry x="51.11" y="450" width="700" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mBKZLEmB2fPAu96eMrEf-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Z5IpPVE7nRzZ21Awn_df-1">
+          <mxGeometry x="51.11" y="500" width="700" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rX5pXmsnUsAc5buK3nLt" name="Admin_page">
+    <mxGraphModel dx="1422" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="GW-RJGJbbjeQYPbTG1aZ-0" />
+        <mxCell id="GW-RJGJbbjeQYPbTG1aZ-1" parent="GW-RJGJbbjeQYPbTG1aZ-0" />
+        <mxCell id="GW-RJGJbbjeQYPbTG1aZ-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GW-RJGJbbjeQYPbTG1aZ-1">
+          <mxGeometry x="144" y="40" width="540" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="GW-RJGJbbjeQYPbTG1aZ-3" value="Please input your candidate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GW-RJGJbbjeQYPbTG1aZ-1">
+          <mxGeometry x="200" y="140" width="171" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GW-RJGJbbjeQYPbTG1aZ-4" value="Please input the voting period" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GW-RJGJbbjeQYPbTG1aZ-1">
+          <mxGeometry x="200" y="450" width="171" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GW-RJGJbbjeQYPbTG1aZ-5" value="Submit" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GW-RJGJbbjeQYPbTG1aZ-1">
+          <mxGeometry x="570" y="550" width="61" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GW-RJGJbbjeQYPbTG1aZ-6" value="Confirm your input is correct?&amp;nbsp;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GW-RJGJbbjeQYPbTG1aZ-1">
+          <mxGeometry x="240" y="620" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GW-RJGJbbjeQYPbTG1aZ-7" value="Confimed" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GW-RJGJbbjeQYPbTG1aZ-1">
+          <mxGeometry x="503" y="626" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GW-RJGJbbjeQYPbTG1aZ-8" value="Wait a sec" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GW-RJGJbbjeQYPbTG1aZ-1">
+          <mxGeometry x="503" y="652" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GW-RJGJbbjeQYPbTG1aZ-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GW-RJGJbbjeQYPbTG1aZ-1">
+          <mxGeometry x="400" y="455" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GW-RJGJbbjeQYPbTG1aZ-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GW-RJGJbbjeQYPbTG1aZ-1">
+          <mxGeometry x="390" y="150" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GW-RJGJbbjeQYPbTG1aZ-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GW-RJGJbbjeQYPbTG1aZ-1">
+          <mxGeometry x="390" y="180" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GW-RJGJbbjeQYPbTG1aZ-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GW-RJGJbbjeQYPbTG1aZ-1">
+          <mxGeometry x="390" y="210" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GW-RJGJbbjeQYPbTG1aZ-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GW-RJGJbbjeQYPbTG1aZ-1">
+          <mxGeometry x="390" y="240" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GW-RJGJbbjeQYPbTG1aZ-15" value="&lt;font style=&quot;font-size: 36px&quot;&gt;&lt;b&gt;Create Campaign&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="GW-RJGJbbjeQYPbTG1aZ-1">
+          <mxGeometry x="260" y="80" width="320" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
