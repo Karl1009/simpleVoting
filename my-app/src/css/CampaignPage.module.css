@@ -1,0 +1,30 @@
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  height: 80vh;
+  width: 60vw;
+  background-color:#e6dddd;
+  border-radius: 20px;
+
+}
+
+.main_campaign {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.campaign {
+  height: 50px;
+  width: 550px;
+  border-radius: 20px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #faf1f1;
+}
+

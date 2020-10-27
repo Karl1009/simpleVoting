@@ -4,22 +4,33 @@ import {
   NavbarBrand,
   Nav,
   NavLink,
-
-  NavbarText
+  NavbarText,
+  Button
 } from 'reactstrap';
+import { Link } from "react-router-dom"
+import styles from "../css/NavBar.module.css";
 
 const NavBar = () => {
-
+  
   return (
     <div>
       <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">SimpleVoting</NavbarBrand>
+        <Link to="/"><NavbarText className={styles.simpleVoting}>Simple Voting</NavbarText></Link>
+        <Link to="/allcampaigns" >
+                  <Button color="info">
+                  All Campaigns
+                  </Button>
+                 </Link>
           <Nav className="mr-auto" navbar>
           </Nav>
-          <NavbarText>
-              <NavLink href="/components/">All Campaign List</NavLink>
-            </NavbarText>
-          <NavbarText>Admin Login</NavbarText>
+
+            <Link to="/" >
+                  <Button color="primary">
+                  Admin Login
+                  </Button>
+                 </Link>
+
+            
       </Navbar>
     </div>
   );

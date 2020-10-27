@@ -1,9 +1,11 @@
 .main_campaign {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 .campaign {
+  cursor: pointer;
   height: 300px;
   width: 450px;
   border-radius: 20px;
@@ -12,4 +14,9 @@
   justify-content: center;
   align-items: center;
   background-color: #faf1f1;
+}
+
+.campaign:hover {
+  box-shadow: 
+  2px 2px 3px 5px rgba(0,0,0,0.2), 1px 4px 3px 5px rgba(0,0,0,0.14), 1px 2px 3px 5px rgba(0,0,0,0.12);
 }
