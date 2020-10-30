@@ -3,10 +3,15 @@
 ## App Introduction
 This is a simple voting system.  Anyone can setup voting campaigns for users' voting.
 
-1. Main Page - for whom wants to find an interesting campaign for voting
-2. Finished Campaign Page - for whom wants to find the historial campaigns
-3. Create a new Campaign Page - anyone can create a new campaign for anyone to vote
-4. All Campaigns Page - for whom wants to know the top total votes among existing campaigns and mixed with expired campaigns ordered by ending time 
+Pages:
+1. Main Page
+   for whom wants to find an interesting campaign for voting
+2. Finished Campaign Page
+   for whom wants to find the historial campaigns
+3. Create a new Campaign Page
+   anyone can create a new campaign for anyone to vote
+4. All Campaigns Page
+   for whom wants to know the top total votes among existing campaigns and mixed with expired campaigns ordered by ending time 
 
 ## Setup
 
@@ -52,5 +57,4 @@ if there is any error, feel free to contact me. My email is kaming1009@gmail.com
    2. Clarify syntax
    3. Fine-tune the user experience
 
-I have spent 3 days full speed to build this application. 
-If there is any bug causing your inconveniences, please accept my apologies.
+Keeping the progress for improvement!
