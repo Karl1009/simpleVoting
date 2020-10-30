@@ -16,7 +16,7 @@
 .topVotingCampaign {
   text-align: center;
   font-size: 35px!important;
-  font-style: oblique;
+
 }
 
 .main_campaign {
@@ -47,7 +47,7 @@
   border-radius: 20px;
   margin: 5px;
   align-items: center;
-  background-color: #ffe4cd;
+  background-color: #faf5f1;
 }
 
 .allCampaign:hover {

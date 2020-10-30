@@ -21,7 +21,7 @@ function AllCampaignsPage() {
     <div className={styles.main}>
       <Paper className={styles.container}>
         <div className={styles.title}>
-          <div className={styles.topVotingCampaign}>Top Voting Campaigns in order</div>
+          <div className={styles.topVotingCampaign}>All Campaigns</div>
         </div>
       
       {allCampaigns && 
