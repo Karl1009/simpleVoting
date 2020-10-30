@@ -1,22 +1,21 @@
 import React, { useEffect } from "react"
-import styles from '../css/MainPage.module.css'
+import styles from '../css/FinishedCampaignPage.module.css'
 import { useDispatch, useSelector } from "react-redux";
 import { push } from "connected-react-router"
-import { setExistingCampaignsThunk } from "../redux/Campaign/thunks"
+import { setExpiredCampaignThunk } from "../redux/Campaign/thunks"
 import { IRootState } from "../redux/store";
 import { Paper } from '@material-ui/core';
 import moment from "moment";
 
-function MainPage() {
+function FinishedCampaignPage() {
   const dispatch = useDispatch();
     const campaignIdArray = useSelector((state: IRootState) => state.campaign.campaignIdArray);
     const campaigns = useSelector((state: IRootState) => campaignIdArray?.map(id => state.campaign.allCampaignsById[id]));
     console.log(campaigns)
     useEffect(() => {
-      dispatch(setExistingCampaignsThunk());
+      dispatch(setExpiredCampaignThunk());
       }, [dispatch]);
   
-        
   return (
     <div >
     
@@ -45,4 +44,8 @@ function MainPage() {
   )
 }
 
-export default MainPage
+export default FinishedCampaignPage
+
+
+
+

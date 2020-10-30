@@ -6,7 +6,6 @@ export async function up(knex: Knex): Promise<void> {
   await knex.schema.createTable(candidatesTable, (table)=> {
     table.increments();
     table.string("candidate_name").notNullable();
-    table.integer("total_vote").unsigned().notNullable();
     table.integer("campaign_id").unsigned().notNullable();
     table.foreign("campaign_id").references(`${campaignsTable}.id`)
     table.timestamps(false,true);

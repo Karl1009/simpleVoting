@@ -1,27 +1,48 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import { useDispatch, useSelector } from 'react-redux';
 import styles from '../css/AllCampaignPage.module.css'
+import { IRootState } from '../redux/store';
+import { setAllCampaignsThunk } from "../redux/Campaign/thunks"
+import { Paper } from '@material-ui/core';
+import { push } from 'connected-react-router';
 
 function AllCampaignsPage() {
-  const campaign = ["Who is the best NBA player in the history?", "Which HK CEO candidate you are preferred", "Who will win the American Election of 2020?", "What drink do you like the most?" ]
-  const totalVotes = [3450000, 3440000, 3430000, 3420000]
+    const dispatch = useDispatch();
+
+    const campaignIdArray = useSelector((state: IRootState) => state.campaign.campaignIdArray);
+    const allCampaigns = useSelector((state: IRootState) => campaignIdArray?.map(id => state.campaign.allCampaignsById[id]));
+
+    useEffect(() => {
+      dispatch(setAllCampaignsThunk());
+      }, [dispatch]);
+  
+
   return (
     <div className={styles.main}>
-      <div className={styles.container}>
- 
-      {campaign && 
+      <Paper className={styles.container}>
+        <div className={styles.title}>
+          <div className={styles.topVotingCampaign}>Top Voting Campaigns in order</div>
+        </div>
+      
+      {allCampaigns && 
         <div className={styles.main_campaign}>
-          {campaign.map((item, idx)=> (
-            <div className={styles.campaign}>
-              <div>{`Voting Campaign ${idx+1} :`}{item}</div>
+          {allCampaigns.map((item)=> (
+            <div>
+            {item.end_time && <div className={styles.allCampaign} onClick={()=> {dispatch(push(`/campaign/${item.id}`))}} >
               <div>
-                <div>Total Votes</div>
-                <div>{totalVotes[idx]}</div>
+              <div className={styles.Text}>{`Voting Campaign ${item.id}: `}</div>
+              <div>{item.campaign_name}</div>
               </div>
+              <div>
+                <div  className={styles.Text}>Total Votes</div>
+                <div className={styles.totalVotes}>{item.totalVotes}</div>
+              </div>
+            </div>}
             </div>
           ))}
         </div>
       }
-      </div>
+      </Paper>
     </div>
   )
 }

@@ -21,16 +21,18 @@ const NavBar = () => {
                   All Campaigns
                   </Button>
                  </Link>
+        <Link to="/finishedCampaign" >
+                <Button color="secondary" className={styles.votingResultButton}>
+                <div>Finished Campaign</div>
+                </Button>
+                </Link>
           <Nav className="mr-auto" navbar>
           </Nav>
-
-            <Link to="/" >
+            <Link to="/newcampaign" >
                   <Button color="primary">
-                  Admin Login
+                  Create a new campaign
                   </Button>
                  </Link>
-
-            
       </Navbar>
     </div>
   );
