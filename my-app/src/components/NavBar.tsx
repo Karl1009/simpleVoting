@@ -1,9 +1,7 @@
 import React from 'react';
 import {
   Navbar,
-  NavbarBrand,
   Nav,
-  NavLink,
   NavbarText,
   Button
 } from 'reactstrap';

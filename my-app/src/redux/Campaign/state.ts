@@ -24,31 +24,32 @@ export interface ICampaignState {
    }
    campaignIdArray:  string[];
 
+   allCampaignsByIdExpired: {
+      [campaignId: string]: ICampaign;
+   }
+   campaignIdArrayExpired:  string[];
+
+
    singleCampaignById: {
       [campaignId: string]: ICampaign,
   },
-
    allCandidatesById: {
       [candidateId: string]: ICandidate;
    }
    candidateIdArray:  string[];
 
-   // allCampaignsByTotalVotes: {
-   //    [campaignId: number]: ICampaign;
-   // }
-   // campaignTotalVotesArray: number[];
-
+  
 }
 
 
 export const initCampaignState: ICampaignState = {
-   // campaign: [],
-   allCampaignsById: {},
-   singleCampaignById: {},
-   campaignIdArray: [],
 
+   allCampaignsById: {},
+   campaignIdArray: [],
+   allCampaignsByIdExpired: {},
+   campaignIdArrayExpired: [],
+   singleCampaignById: {},
    allCandidatesById: {},
    candidateIdArray: [],
-   // allCampaignsByTotalVotes: {},
-   // campaignTotalVotesArray:[],
+
 }

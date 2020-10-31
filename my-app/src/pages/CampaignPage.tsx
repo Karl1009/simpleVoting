@@ -9,11 +9,21 @@ import { useForm } from "react-hook-form";
 import { Alert } from 'reactstrap';
 import { Button, Paper, TextField } from '@material-ui/core';
 import moment from 'moment';
+import sleep from "../sleep";
+import { Spinner } from "react-bootstrap";
+import { createBrowserHistory } from 'history';
+import { RiArrowGoBackLine } from 'react-icons/ri';
 
 const {REACT_APP_API_SERVER} = process.env
+const history = createBrowserHistory();
 
 function CampaignPage() {
   const { register, handleSubmit, reset, errors, formState, clearErrors } = useForm();
+  const [loading, setLoading] = useState(true)
+  const wait = async (milliseconds = 2000) => {
+    await sleep(milliseconds);
+    setLoading(false);
+  }
   const onSubmit = async (data: any)=> {
     console.log(data)
       const res = await fetch(`${REACT_APP_API_SERVER}/user/vote/${campaign_id}/${chosenCandidate?.id}`,{
@@ -53,13 +63,22 @@ function CampaignPage() {
  
 
   useEffect(() => {
+    wait(800)
     dispatch(setSingleCampaignThunk(campaign_id));
-    }, [dispatch]);
+    }, [dispatch, campaign_id]);
   
 
   return (
+    <>
+    <div className="centerSmall">
+    {loading &&  <Spinner animation="grow" size="sm" variant="warning"/>}
+    {loading &&  <Spinner animation="grow" size="sm" variant="danger"/>}
+    {loading &&  <Spinner animation="grow" size="sm" variant="info"/>}
+    </div>
+    {!loading &&
     <div className={styles.main}>
       <Paper className={styles.paper}>
+      <button onClick={()=> {history.goBack()}}className={styles.returnButton}><RiArrowGoBackLine className={styles.arrow}/></button>
       {singleCampaign && 
       <>
       <h3>{`Voting Campaign ${singleCampaign.id}`} </h3>
@@ -73,6 +92,7 @@ function CampaignPage() {
       {candidates && 
         <div className={styles.main_campaign}>
           {candidates.map((item, idx)=> (
+            // eslint-disable-next-line
             <div className={styles.campaign} onClick={()=> (setToggle(true), setChosenCandidate(item))}>
             <div>
             <div className={styles.candidateFontStyles}>{`Candidate ${idx+1}`}</div>
@@ -128,6 +148,8 @@ function CampaignPage() {
       }
       </Paper>
     </div>
+  }
+  </>
   )
 }
 

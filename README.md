@@ -1,5 +1,5 @@
 # Simple Voting
-
+![](images/mainpage.png)
 ## App Introduction
 This is a simple voting system.  Anyone can setup voting campaigns for users' voting.
 
@@ -38,6 +38,8 @@ yarn start
 ```
 if there is any error, feel free to contact me. My email is kaming1009@gmail.com
 
+Remark: 
+The PIN will be generated after voted but it is no use for current stage.  In future dev, it will be used for users to check their voting status for each campaign.
 
 ## Personal workflow
 1. Plan
@@ -58,3 +60,5 @@ if there is any error, feel free to contact me. My email is kaming1009@gmail.com
    3. Fine-tune the user experience
 
 Keeping the progress for improvement!
+
+

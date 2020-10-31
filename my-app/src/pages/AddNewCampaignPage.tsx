@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
-import moment from "moment";
+
 import styles from "../css/AddNewCampaignPage.module.css"
 // import { Button } from 'reactstrap';
 import Button from "@material-ui/core/Button/Button";
@@ -33,7 +33,7 @@ const AddNewCampaignPage : React.FC = ()=> {
   const classes = useStyles();
   const [failMessage, setFailMessage] = useState("");
   const [successMessage, setSuccessMessage] =useState("");
-  const { register, handleSubmit, reset, errors, clearErrors } = useForm();
+  const { register, handleSubmit, errors,  clearErrors } = useForm();
   const dispatch = useDispatch();
   const onSubmit = async (data: any) => {
     for(const key in data) {
@@ -73,7 +73,7 @@ const AddNewCampaignPage : React.FC = ()=> {
          color="secondary"
          required={true}
          variant="outlined"
-         inputRef={register({ required: true, minLength: 3 })}
+         inputRef={register({ required: true, minLength: 3 , maxLength: 55})}
       />
       <TextField
          className='title'
@@ -165,6 +165,8 @@ const AddNewCampaignPage : React.FC = ()=> {
          Submit
             </Button>
     </form>
+    {errors.campaignName?.type === "maxLength" &&
+        <Alert color="danger">{"Campaign Name exceed maxLength"}</Alert>}
     {failMessage !== "" && <Alert color="danger">{failMessage}</Alert>}
     {successMessage !== "" && <Alert color="success">{successMessage}</Alert>}
     </Paper>

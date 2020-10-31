@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { ConnectedRouter } from 'connected-react-router';
 import store, {history} from "./redux/store"
 import { Provider } from 'react-redux';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>

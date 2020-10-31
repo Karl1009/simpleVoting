@@ -29,16 +29,13 @@ export function campaignReducers(state: ICampaignState = initCampaignState, acti
             state.allCampaignsById[campaign.id] = campaign
             state.campaignIdArray.push(campaign.id)
          }
+         // expiredCampaignOrderedByEndTime
+            state.campaignIdArrayExpired = []
          for (const campaign of action.expiredCampaigns) {
-            state.allCampaignsById[campaign.id] = campaign
-            state.campaignIdArray.push(campaign.id)
+            state.allCampaignsByIdExpired[campaign.id] = campaign
+            state.campaignIdArrayExpired.push(campaign.id)
          }
-            // expiredCampaignOrderedByEndTime
             
-            for (const campaign of action.expiredCampaigns) {
-               state.allCampaignsById[campaign.id] = campaign
-               state.campaignIdArray.push(campaign.id)
-            }
             break;
 
          case "@@campaign/SET_CANDIDATE_BY_CAMPAIGN":
