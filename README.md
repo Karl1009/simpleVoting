@@ -23,6 +23,7 @@ yarn install
 cp .env.sample .env
 nano/vim .env and input your DB_USERNAME & DB_PASSWORD
 start your SQL and run -> CREATE DATABASE simple_voting;
+exit your SQL command line and back to simpleVoting/server;
 yarn knex migrate:latest
 yarn knex seed:run
 ts-node main.ts or node index.js
