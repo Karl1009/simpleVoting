@@ -17,7 +17,6 @@ Pages:
 
 BACKEND
 ```
-open a new bash terminal
 cd simpleVoting/server
 yarn install
 cp .env.sample .env
@@ -31,7 +30,7 @@ ts-node main.ts or node index.js
 
 FRONTEND
 ```
-back to original bash terminal
+open a new bash terminal
 cd simpleVoting/my-app
 yarn install
 cp .env.sample .env
