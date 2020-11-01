@@ -28,7 +28,7 @@ yarn knex seed:run
 ts-node main.ts or node index.js
 ```
 
-FRONTEND
+FRONTEND (react)
 ```
 open a new bash terminal
 cd simpleVoting/my-app
